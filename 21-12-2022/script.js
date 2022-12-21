@@ -8,7 +8,7 @@
 
 //scrivere un oggetto col vostro nome che vi identifichi in proprietà (nome, cognome, ecc...)
 // e per metodi (es. possono anche essere semplici console.log di voi che eseguite un hobby)
-const CartaIdentità = {
+const CartaIdentitàFlavia = {
     nome: "Flavia",
     cognome: "Pinello",
     età: "37",
@@ -16,4 +16,4 @@ const CartaIdentità = {
      console.log("Edgemony Bootcamp");
      },
     };
-console.log(CartaIdentità)
+console.log(CartaIdentitàFlavia)
