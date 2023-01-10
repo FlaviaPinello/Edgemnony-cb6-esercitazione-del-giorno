@@ -18,7 +18,7 @@ const createHero = (title, img, description) => {
   
     
     imgEl.className = 'hero_img';
-    imgEl.setAttribute('src', 'https://picsum.photos/1024/300');
+    imgEl.setAttribute('src', 'https://picsum.photos/2048/400');
     imgEl.setAttribute('alt', 'lorem picsum');
   
     titleEl.className = 'hero_title';
