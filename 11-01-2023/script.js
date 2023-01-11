@@ -14,16 +14,16 @@ function closeCard () {
 }
 
 function changeColorText (){
- cardClickEl.description.style.color = 'red';
+ descriptionEl.style.color = 'red';
 
 }
 
+const descriptionEl = document.querySelector ('.description');
 
-
-const cardClickEl = document.querySelector('.card')
+const cardClickEl = document.querySelector('.card');
 cardClickEl.addEventListener('click', changeColorText);
 
 const btnXEl = document.querySelector('.btn');
-btnXEl.addEventListener('click', closeCard)
+btnXEl.addEventListener('click', closeCard);
 
 
