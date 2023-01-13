@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 247, 247);
+    color: white;
+}
+
+.slider{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+
+.slider__img{
+    height: 300px;
+    width: 250px ;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 0 4px rgba(0,0,0.4);
+    
+}
+
+.slider_switch{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.slider_switch button{
+    border-radius: 100%;
+    background-color: transparent;
+    border: 2px solid rgb(0,0,0);
+    
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
