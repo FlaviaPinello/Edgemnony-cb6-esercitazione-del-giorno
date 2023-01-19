@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./form.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+        <h1>Pattern4All</h1>
+        <a class = "linkCatalogoProdotti" href="index.html">Catalogo Prodotti</a>
+        <div class="menu"> 
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        
+        <div class ="tendina"></div>
+        
+    
+    </header>
+    <section class = "container">
+    <div class="hero" id="hero">
+      <img class = "show"  src="https://picsum.photos/1024/300" alt="alt images" /></div>
+      
+      <div class ="formProducts">
+        <h2>Inserisci il nuovo prodotto</h2>
+        <form id="postForm" class="productForm">
+
+           <div>
+             <label for="title">Title:</label>
+             <input name="title" type="tex" id="title" required/>
+           </div>
+           <div>
+             <label for="email">Email:</label>
+             <input name="email" type="email" required/>
+           </div>
+           <div>
+             <label for="price">Price:</label>
+             <input name="price" type="number" id="price"/>
+            </div>
+            <div>
+             <label for="category">Category:</label>
+             <input name="category" type="number" min="1" max="7" id="category" required/>
+            </div>
+            <div>
+             <label for="checkbox">Checkbox:</label>
+             <input name="checkbox" type="checkbox" value="1" name="" id="" required>
+            </div>
+            <div>
+               <label for="image">Image:</label>
+               <input name="image" type="url" placeholder="URL image" id="images"required/>
+            </div>
+            <div>
+             <label for="description">Description:</label>
+             <textarea  name="description" id="description" required></textarea>
+            </div>
+            <div>
+             <input type="submit" value="INVIA">
+            </div>  
+
+        </form>
+        <div class ="formSecond">
+          <form id="categoryForm" class="categoryForm">
+            <h2>Inserisci le categorie</h2>
+
+            <div>
+              <label for="title">Category Name:</label>
+              <input name="title" type="tex" id="CategoryName" required/>
+            </div>
+
+             <div>
+              <label for="category">Category:</label>
+              <input name="category" type="number" min="1" max="7" id="category" required/>
+             </div>
+            
+             <div>
+                <label for="image">Image:</label>
+                <input name="image" type="url" placeholder="URL image" id="categoryImages"required/>
+             </div>
+
+             <div>
+              <input type="submit" value="INVIA">
+             </div>  
+ 
+         </form>
+
+        </div>
+      </div>
+      
+    </section>
+    <footer> 
+
+    </footer>
+  </body>
+</html>
