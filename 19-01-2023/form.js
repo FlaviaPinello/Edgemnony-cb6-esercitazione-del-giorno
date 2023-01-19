@@ -7,7 +7,7 @@ const inputImages = document.querySelector("#images");
 
 const categoryForm = document.querySelector("#categoryForm");
 const catName = document.querySelector("#categoryName");
-const catImage = document.querySelector("#categoryImage");
+const catImage = document.querySelector("#categoryImages");
 
 categoryForm.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -52,7 +52,7 @@ const funzionePost = (objBody, param) => {
       alert(
       `${param} Prodotto non caricato: `  + data.message[0]);
     } else{
-      alert (`${param} Prodotto non caricato:`);
+      alert (`${param} Prodotto caricato:`);
       console.log("Risposta POST: ", data)
 
     }
