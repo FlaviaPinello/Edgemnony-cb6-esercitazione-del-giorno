@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+
+
+.tendina {
+    border: 1px solid rgb(8, 8, 79);
+    width: 300px;
+    height: 400px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgb(8, 8, 79);
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    z-index: 2;
+    opacity: 0;
+    padding: 20px;
+    
+}
+
+.show {
+    opacity: 1;
+}
+
+.cartRow {
+    display: flex; 
+    gap: 10px;
+}
+.cartRow button{
+    width: 60px;
+    height: 20px;
+    margin-left: 10 px;
+    
+}
+
+.menu .line {
+    width: 100%;
+    height: 6px;
+    background-color: rgb(8, 8, 79);
+    border-radius: 5px;
+}
+.hero{
+    width: 100%;
+    height: 400px;
+    border: 1px solid rgb(8, 8, 79) ;
+    position: relative;
+    overflow: hidden;
+}
+section .hero img {
+    width: 100%;
+   position: absolute; 
+}
+.products {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card{
+    width: 250px;
+    height: 350px;
+    border: 1px solid rgb(8, 8, 79);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgb(8, 8, 79);
+    display: flex;
+    flex-direction: column;
+}
+.card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+.card .title{
+    font-size: 20px;
+}
+.card .description{
+    flex-grow: 1;
+}
+.card button {
+    padding: 5px 10px;
+    background-color: rgb(8, 8, 79);
+    border: 1px solid rgb(8, 8, 79);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.formProducts{
+    gap:50px;
+    display:flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.productForm{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 1px solid rgb(8, 8, 79);
+    display: block;
+    width: 200px;
+    gap: 50px;
+    border-radius: 8px;
+}
+.categoryForm{
+    
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(8, 8, 79);
+    display: block;
+    width: 200px;
+    gap: 50px;
+    border-radius: 8px;
+    padding: 10px;
+}
