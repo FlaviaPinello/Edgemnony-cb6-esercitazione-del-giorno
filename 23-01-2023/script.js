@@ -15,9 +15,8 @@ containerEl.className = "container";
 bodyEl.appendChild(containerEl);
 
 
-const quoteObj = {};
 
-GET("quotes").then((data) =>
-  data.quotes.map((quote) =>containerEl.appendChild(quoteCard(quote)))
-)
- .then(() => containerEl.appendChild(quoteCard(quote1)));
+
+GET("quotes/1").then((data) =>containerEl.appendChild(quoteCard(data)));
+
+
