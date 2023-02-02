@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "name": "Gelsomino nel paese dei bugiardi",
+      "autore": "Giosuè Carducci",
+      "prezzo": "15€",
+      "genere": "fiaba"
+      
+    },
+    {
+      "id": 2,
+      "name": "Eragon",
+      "autore": "C.Paolini",
+      "prezzo": "20€",
+      "genere": "fantasy"
+    },
+    {
+      "id": 3,
+      "name": "Eldest",
+      "autore": "C.Paolini",
+      "prezzo": "20€",
+      "genere": "fantasy"
+    },
+      
+   
+    {
+      "id": 4,
+      "name": "Brsinger",
+      "autore": "C.Paolini",
+      "prezzo": "20€",
+      "genere": "fantasy"
+      
+    },
+    {
+      "id": 5,
+      "name": "uno,nessuno e centomila",
+      "autore": "L.Pirandello",
+      "prezzo": "10€",
+      "genere": "narrativa"
+    }
+   
+  ]
