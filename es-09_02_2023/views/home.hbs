@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stile.css">
+    <title>{{titolo}}</title>
+    
+</head>
+
+<body>
+
+    {{>header}}
+  
+    <h1>ciao{{name}}</h1>
+
+    {{>hero}}
+    <h2>il titolo è {{titolo}}</h2>
+    <p> il mio animale preferito <span><b>{{pet}}</b></span></p>
+    <p> i miei animali preferiti sono <span><b>{{myPreferences.pet}}</b></span></p>
+    <p> il mio colore preferito è <span><b>{{myPreferences.color}}</b></span></p>
+    <p> la mia stagione preferita è <span><b>{{myPreferences.season}}</b></span></p>
+    {{>footer}}
+   
+</body>
+
+</html>
